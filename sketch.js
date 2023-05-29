@@ -48,6 +48,7 @@ function draw(){
   }
   textSize(50)
   text(score,50,50)
+  fill("#01497c")
 
   push()//砲台
   let dx = mouseX-width/2

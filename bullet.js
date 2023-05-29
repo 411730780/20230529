@@ -11,6 +11,7 @@ class Bullet{
         fill(this.color)
         noStroke()
         rect(0,0,this.r)
+        ellipse(0,0,this.r)
         //rectMode(CENTER)
         //rect(0,0,20,40)
        pop()
